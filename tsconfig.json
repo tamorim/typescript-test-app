@@ -1,0 +1,42 @@
+{
+  "externalTranspiler": "babel",
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "outDir": "./dist/"
+  },
+  "compileOnSave": false,
+  "files": [
+    "typings/tsd.d.ts",
+    "src/actions/actions.ts",
+    "src/constants/ActionTypes.ts",
+    "src/interfaces.d.ts",
+    "src/reducers/posts.ts",
+    "src/reducers/reducers.ts",
+    "src/store/postStore.ts",
+    "src/components/Footer/Folder.tsx",
+    "src/components/Header/Header.tsx",
+    "src/components/PostArea/PostArea.tsx",
+    "src/components/PostList/FilterButton/FilterButton.tsx",
+    "src/components/PostList/Post/Likes/Likes.tsx",
+    "src/components/PostList/Post/Post.tsx",
+    "src/components/PostList/PostList.tsx",
+    "src/containers/App.tsx",
+    "src/index.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "typings/tsd.d.ts",
+    "src/**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
