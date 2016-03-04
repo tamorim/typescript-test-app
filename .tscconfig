@@ -1,0 +1,7 @@
+--experimentalDecorators
+--noFallthroughCasesInSwitch
+--noEmit
+--target es6
+--jsx preserve
+typings/tsd.d.ts
+src/interfaces.d.ts
